@@ -3,7 +3,7 @@
 package orders
 
 import (
-	"github.com/svvu/gomws/mws"
+	"github.com/willianwong/gomws/mws"
 )
 
 // Orders is the client for the api
@@ -79,7 +79,8 @@ func (o Orders) ListOrders(others ...mws.Parameters) (*mws.Response, error) {
 	op := mws.OptionalParams([]string{
 		"CreatedAfter", "CreatedBefore",
 		"LastUpdatedAfter", "LastUpdatedBefore",
-		"OrderStatus", "FulfillmentChannel", "PaymentMethod",
+		"OrderStatus.Status.1","OrderStatus.Status.2",
+		"FulfillmentChannel", "PaymentMethod",
 		"SellerOrderId", "BuyerEmail",
 		"TFMShipmentStatus", "MaxResultsPerPage",
 	}, others)

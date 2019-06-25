@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/svvu/gomws/mws"
-	"github.com/svvu/gomws/mws/products"
-	"github.com/svvu/gomws/mws/reports"
+	"github.com/willianwong/gomws/mws"
+	"github.com/willianwong/gomws/mws/products"
+	"github.com/willianwong/gomws/mws/reports"
 )
 
 func main() {
