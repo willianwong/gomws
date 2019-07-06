@@ -2,6 +2,8 @@ package mws
 
 import (
 	"bytes"
+	"crypto/md5"
+	"encoding/base64"
 	"fmt"
 	"net/http"
 	"net/url"
@@ -138,19 +140,32 @@ func (base Client) buildRequest(structuredParams Parameters) (*http.Request, err
 	}
 
 	encodedParams := base.signQuery(params).Encode()
+	var body string
+	if structuredParams["FeedContent"] != nil{
+		body = structuredParams["FeedContent"].(string)
+	}
 	req, err := http.NewRequest(
 		"POST",
-		base.EndPoint(),
-		bytes.NewBufferString(encodedParams),
+		base.EndPoint()+"?"+encodedParams,
+		bytes.NewBufferString(body),
 	)
+
+	fmt.Println(body)
 
 	if err != nil {
 		return nil, err
 	}
 
 	// Add content headers.
+
 	req.Header.Add("Content-Type", "application/x-www-form-urlencoded")
-	req.Header.Add("Content-Length", strconv.Itoa(len(encodedParams)))
+	if structuredParams["Action"] == "SubmitFeed" {
+		md5Content := Md5V(structuredParams["FeedContent"].(string))
+		base64Content := Base64EncodeStr(md5Content)
+		req.Header.Add("Content-MD5", base64Content)
+	}else {
+		req.Header.Add("Content-Length", strconv.Itoa(len(encodedParams)))
+	}
 
 	return req, nil
 }
@@ -193,4 +208,21 @@ func (base Client) generateStringToSignV2(params Values) string {
 	stringToSign.WriteString(params.Encode())
 
 	return stringToSign.String()
+}
+
+func Md5V(str string) string  {
+	h := md5.New()
+	h.Write([]byte(str))
+	return string(h.Sum(nil))
+}
+
+func Md5V2(str string) string {
+	data := []byte(str)
+	has := md5.Sum(data)
+	md5str := fmt.Sprintf("%x", has)
+	return md5str
+}
+
+func Base64EncodeStr(src string) string {
+	return string(base64.StdEncoding.EncodeToString([]byte(src)))
 }

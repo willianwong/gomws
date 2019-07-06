@@ -10,13 +10,13 @@ import (
 
 func main() {
 	config := mws.Config{
-		SellerId:  "SellerId",
-		AuthToken: "AuthToken",
-		Region:    "US",
+		SellerId:  "xx",
+		AuthToken: "xx",
+		Region:    "DE",
 
 		// Optional if set in env variable
-		AccessKey: "AKey",
-		SecretKey: "SKey",
+		AccessKey: "xx",
+		SecretKey: "xx",
 	}
 	productsClient, err := products.NewClient(config)
 	if err != nil {

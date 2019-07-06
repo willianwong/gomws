@@ -79,7 +79,7 @@ func (o Orders) ListOrders(others ...mws.Parameters) (*mws.Response, error) {
 	op := mws.OptionalParams([]string{
 		"CreatedAfter", "CreatedBefore",
 		"LastUpdatedAfter", "LastUpdatedBefore",
-		"OrderStatus.Status.1","OrderStatus.Status.2",
+		"OrderStatus",
 		"FulfillmentChannel", "PaymentMethod",
 		"SellerOrderId", "BuyerEmail",
 		"TFMShipmentStatus", "MaxResultsPerPage",
