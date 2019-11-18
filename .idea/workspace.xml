@@ -2,27 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7103e2bf-5ccd-4fb7-9884-59c653d4b8cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mws/feeds/feeds.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mws/feeds/feeds_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mws/orders/orders_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mws/products/products_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mws/seller/seller.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mws/seller/seller_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mws/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/mws/client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mws/client_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/mws/client_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mws/gmws.go" beforeDir="false" afterPath="$PROJECT_DIR$/mws/gmws.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mws/marketplace.go" beforeDir="false" afterPath="$PROJECT_DIR$/mws/marketplace.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mws/marketplace_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/mws/marketplace_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mws/mock/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/mws/mock/server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mws/orders/orders.go" beforeDir="false" afterPath="$PROJECT_DIR$/mws/orders/orders.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mws/parameters.go" beforeDir="false" afterPath="$PROJECT_DIR$/mws/parameters.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mws/response_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/mws/response_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mws/result_parser_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/mws/result_parser_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mws/signer.go" beforeDir="false" afterPath="$PROJECT_DIR$/mws/signer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmlParser/xml_node.go" beforeDir="false" afterPath="$PROJECT_DIR$/xmlParser/xml_node.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmlParser/xml_node_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/xmlParser/xml_node_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mws/orders/orders_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/mws/orders/orders_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mws/products/products_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/mws/products/products_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,38 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mws/orders/orders_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.go">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-800">
-              <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-              <folding>
-                <element signature="e#14#157#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xmlParser/xml_node.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="829">
-              <caret line="332" column="19" selection-start-line="332" selection-start-column="19" selection-end-line="332" selection-end-column="19" />
-              <folding>
-                <element signature="e#19#126#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mws/seller/seller_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-              <folding>
-                <element signature="e#16#80#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -71,35 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mws/products/products_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mws/orders/orders_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-602">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mws/feeds/feeds.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="880">
-              <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mws/feeds/feeds_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-88">
-              <caret line="125" column="46" lean-forward="true" selection-start-line="125" selection-start-column="46" selection-end-line="125" selection-end-column="46" />
+            <state relative-caret-position="682">
+              <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -118,6 +57,8 @@
       <find>A2VIGQ35RCS4UG</find>
       <find>ShippingMethod</find>
       <find>Merchant</find>
+      <find>Laville Cécile</find>
+      <find>BR</find>
     </findStrings>
   </component>
   <component name="GOROOT" path="F:\Go" />
@@ -135,23 +76,25 @@
         <option value="$PROJECT_DIR$/mws/products/product_test.go" />
         <option value="$PROJECT_DIR$/mws/seller/seller.go" />
         <option value="$PROJECT_DIR$/mws/feed/feed.go" />
-        <option value="$PROJECT_DIR$/mws/seller/seller_test.go" />
-        <option value="$PROJECT_DIR$/mws/products/products_test.go" />
         <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/mws/client_test.go" />
         <option value="$PROJECT_DIR$/mws/orders/orders.go" />
         <option value="$PROJECT_DIR$/mws/client.go" />
         <option value="$PROJECT_DIR$/mws/feeds/feeds.go" />
-        <option value="$PROJECT_DIR$/mws/orders/orders_test.go" />
         <option value="$PROJECT_DIR$/mws/feeds/feeds_test.go" />
+        <option value="$PROJECT_DIR$/mws/seller/seller_test.go" />
+        <option value="$PROJECT_DIR$/mws/products/products_test.go" />
+        <option value="$PROJECT_DIR$/mws/marketplace.go" />
+        <option value="$PROJECT_DIR$/mws/orders/orders_test.go" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-1088" />
+    <option name="y" value="-410" />
+    <option name="width" value="1096" />
+    <option name="height" value="1896" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -164,40 +107,6 @@
             <path>
               <item name="gomws" type="b2602c69:ProjectViewProjectNode" />
               <item name="gomws" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gomws" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gomws" type="462c0819:PsiDirectoryNode" />
-              <item name="mws" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gomws" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gomws" type="462c0819:PsiDirectoryNode" />
-              <item name="mws" type="462c0819:PsiDirectoryNode" />
-              <item name="feeds" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gomws" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gomws" type="462c0819:PsiDirectoryNode" />
-              <item name="mws" type="462c0819:PsiDirectoryNode" />
-              <item name="orders" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gomws" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gomws" type="462c0819:PsiDirectoryNode" />
-              <item name="mws" type="462c0819:PsiDirectoryNode" />
-              <item name="products" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gomws" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gomws" type="462c0819:PsiDirectoryNode" />
-              <item name="mws" type="462c0819:PsiDirectoryNode" />
-              <item name="seller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gomws" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gomws" type="462c0819:PsiDirectoryNode" />
-              <item name="xmlParser" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gomws" type="b2602c69:ProjectViewProjectNode" />
@@ -217,7 +126,7 @@
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../amz-admin-backend" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -233,40 +142,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestFeed_SubmitFeed in github.com/willianwong/gomws/mws/feeds">
-    <configuration name="TestFeed_GetFeedSubmissionList in github.com/willianwong/gomws/mws/feeds" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="gomws" />
-      <working_directory value="$PROJECT_DIR$/mws/feeds" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="github.com/willianwong/gomws/mws/feeds" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestFeed_GetFeedSubmissionList$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestFeed_GetFeedSubmissionResult in github.com/willianwong/gomws/mws/feeds" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="gomws" />
-      <working_directory value="$PROJECT_DIR$/mws/feeds" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="github.com/willianwong/gomws/mws/feeds" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestFeed_GetFeedSubmissionResult$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestFeed_SubmitFeed in github.com/willianwong/gomws/mws/feeds" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="gomws" />
-      <working_directory value="$PROJECT_DIR$/mws/feeds" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="github.com/willianwong/gomws/mws/feeds" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestFeed_SubmitFeed$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.TestOrders_GetOrder in github.com/willianwong/gomws/mws/orders">
     <configuration name="TestOrders_GetOrder in github.com/willianwong/gomws/mws/orders" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="gomws" />
       <working_directory value="$PROJECT_DIR$/mws/orders" />
@@ -276,6 +152,17 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestOrders_GetOrder$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestOrders_GetServiceStatus in github.com/willianwong/gomws/mws/orders" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="gomws" />
+      <working_directory value="$PROJECT_DIR$/mws/orders" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/willianwong/gomws/mws/orders" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestOrders_GetServiceStatus$" />
       <method v="2" />
     </configuration>
     <configuration name="TestOrders_ListOrders in github.com/willianwong/gomws/mws/orders" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -289,59 +176,81 @@
       <pattern value="^TestOrders_ListOrders$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestProducts_GetProductCategoriesForASIN in github.com/willianwong/gomws/mws/products" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="gomws" />
+      <working_directory value="$PROJECT_DIR$/mws/products" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/willianwong/gomws/mws/products" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestProducts_GetProductCategoriesForASIN$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestProducts_GetServiceStatus in github.com/willianwong/gomws/mws/products" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="gomws" />
+      <working_directory value="$PROJECT_DIR$/mws/products" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/willianwong/gomws/mws/products" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestProducts_GetServiceStatus$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestFeed_SubmitFeed in github.com/willianwong/gomws/mws/feeds" />
-        <item itemvalue="Go Test.TestFeed_GetFeedSubmissionResult in github.com/willianwong/gomws/mws/feeds" />
         <item itemvalue="Go Test.TestOrders_GetOrder in github.com/willianwong/gomws/mws/orders" />
         <item itemvalue="Go Test.TestOrders_ListOrders in github.com/willianwong/gomws/mws/orders" />
-        <item itemvalue="Go Test.TestFeed_GetFeedSubmissionList in github.com/willianwong/gomws/mws/feeds" />
+        <item itemvalue="Go Test.TestOrders_GetServiceStatus in github.com/willianwong/gomws/mws/orders" />
+        <item itemvalue="Go Test.TestProducts_GetProductCategoriesForASIN in github.com/willianwong/gomws/mws/products" />
+        <item itemvalue="Go Test.TestProducts_GetServiceStatus in github.com/willianwong/gomws/mws/products" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestFeed_SubmitFeed_in_github_com_willianwong_gomws_mws_feeds - 2019.07.05 at 10h 47m 19s.xml">
-      <configuration name="TestFeed_SubmitFeed in github.com/willianwong/gomws/mws/feeds" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestProducts_GetServiceStatus_in_github_com_willianwong_gomws_mws_products - 2019.11.15 at 09h 29m 19s.xml">
+      <configuration name="TestProducts_GetServiceStatus in github.com/willianwong/gomws/mws/products" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestFeed_GetFeedSubmissionResult_in_github_com_willianwong_gomws_mws_feeds - 2019.07.05 at 10h 47m 32s.xml">
-      <configuration name="TestFeed_GetFeedSubmissionResult in github.com/willianwong/gomws/mws/feeds" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestProducts_GetProductCategoriesForASIN_in_github_com_willianwong_gomws_mws_products - 2019.11.15 at 09h 43m 14s.xml">
+      <configuration name="TestProducts_GetProductCategoriesForASIN in github.com/willianwong/gomws/mws/products" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestFeed_GetFeedSubmissionResult_in_github_com_willianwong_gomws_mws_feeds - 2019.07.05 at 10h 47m 40s.xml">
-      <configuration name="TestFeed_GetFeedSubmissionResult in github.com/willianwong/gomws/mws/feeds" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestOrders_GetOrder_in_github_com_willianwong_gomws_mws_orders - 2019.11.15 at 15h 38m 52s.xml">
+      <configuration name="TestOrders_GetOrder in github.com/willianwong/gomws/mws/orders" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestFeed_GetFeedSubmissionResult_in_github_com_willianwong_gomws_mws_feeds - 2019.07.05 at 10h 47m 44s.xml">
-      <configuration name="TestFeed_GetFeedSubmissionResult in github.com/willianwong/gomws/mws/feeds" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestOrders_ListOrders_in_github_com_willianwong_gomws_mws_orders - 2019.11.15 at 17h 29m 18s.xml">
+      <configuration name="TestOrders_ListOrders in github.com/willianwong/gomws/mws/orders" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestFeed_GetFeedSubmissionResult_in_github_com_willianwong_gomws_mws_feeds - 2019.07.05 at 10h 47m 48s.xml">
-      <configuration name="TestFeed_GetFeedSubmissionResult in github.com/willianwong/gomws/mws/feeds" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestOrders_ListOrders_in_github_com_willianwong_gomws_mws_orders - 2019.11.15 at 17h 29m 35s.xml">
+      <configuration name="TestOrders_ListOrders in github.com/willianwong/gomws/mws/orders" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestFeed_SubmitFeed_in_github_com_willianwong_gomws_mws_feeds - 2019.07.05 at 10h 51m 13s.xml">
-      <configuration name="TestFeed_SubmitFeed in github.com/willianwong/gomws/mws/feeds" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestOrders_ListOrders_in_github_com_willianwong_gomws_mws_orders - 2019.11.16 at 16h 51m 46s.xml">
+      <configuration name="TestOrders_ListOrders in github.com/willianwong/gomws/mws/orders" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestFeed_GetFeedSubmissionResult_in_github_com_willianwong_gomws_mws_feeds - 2019.07.05 at 10h 51m 31s.xml">
-      <configuration name="TestFeed_GetFeedSubmissionResult in github.com/willianwong/gomws/mws/feeds" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestOrders_GetServiceStatus_in_github_com_willianwong_gomws_mws_orders - 2019.11.16 at 16h 53m 19s.xml">
+      <configuration name="TestOrders_GetServiceStatus in github.com/willianwong/gomws/mws/orders" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestFeed_GetFeedSubmissionResult_in_github_com_willianwong_gomws_mws_feeds - 2019.07.05 at 10h 51m 38s.xml">
-      <configuration name="TestFeed_GetFeedSubmissionResult in github.com/willianwong/gomws/mws/feeds" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestOrders_GetServiceStatus_in_github_com_willianwong_gomws_mws_orders - 2019.11.16 at 16h 53m 32s.xml">
+      <configuration name="TestOrders_GetServiceStatus in github.com/willianwong/gomws/mws/orders" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestFeed_SubmitFeed_in_github_com_willianwong_gomws_mws_feeds - 2019.07.05 at 10h 57m 17s.xml">
-      <configuration name="TestFeed_SubmitFeed in github.com/willianwong/gomws/mws/feeds" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestOrders_ListOrders_in_github_com_willianwong_gomws_mws_orders - 2019.11.16 at 16h 55m 16s.xml">
+      <configuration name="TestOrders_ListOrders in github.com/willianwong/gomws/mws/orders" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestFeed_SubmitFeed_in_github_com_willianwong_gomws_mws_feeds - 2019.07.05 at 11h 01m 22s.xml">
-      <configuration name="TestFeed_SubmitFeed in github.com/willianwong/gomws/mws/feeds" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestOrders_GetOrder_in_github_com_willianwong_gomws_mws_orders - 2019.11.16 at 16h 55m 56s.xml">
+      <configuration name="TestOrders_GetOrder in github.com/willianwong/gomws/mws/orders" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18496802" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09701493" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.48590022" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29826465" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49903476" weight="0.6912682" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39954597" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -349,7 +258,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50096524" side_tool="true" weight="0.34790012" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -377,26 +286,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mws/result_parser_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1328">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#13#101#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mws/signer.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#13#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mws/response_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2244" />
@@ -408,16 +297,6 @@
           <caret line="16" column="53" lean-forward="true" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
           <folding>
             <element signature="e#13#100#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mws/result_parser.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="e#13#65#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -435,49 +314,12 @@
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mws/mock/server.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
-          <folding>
-            <element signature="e#14#111#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mws/products/products.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding>
-            <element signature="e#111#157#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mws/seller/seller.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mws/gmws.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
           <folding>
             <element signature="e#13#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mws/marketplace.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1166">
-          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-          <folding>
-            <element signature="e#13#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -495,16 +337,6 @@
     <entry file="file://$PROJECT_DIR$/mws/orders/exampleResponses/GetOrder.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-528" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mws/response.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="e#13#113#0" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mws/marketplace_test.go">
@@ -542,30 +374,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mws/feeds/test.txt" />
-    <entry file="file://$PROJECT_DIR$/mws/parameters.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="85" column="17" selection-start-line="85" selection-start-column="11" selection-end-line="85" selection-end-column="17" />
-          <folding>
-            <element signature="e#13#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mws/client.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
           <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mws/orders/orders.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="127" column="67" lean-forward="true" selection-start-line="127" selection-start-column="67" selection-end-line="127" selection-end-column="67" />
-          <folding>
-            <element signature="e#116#162#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -579,16 +391,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mws/feeds/feeds.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xmlParser/xml_node.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="829">
+        <state relative-caret-position="7304">
           <caret line="332" column="19" selection-start-line="332" selection-start-column="19" selection-end-line="332" selection-end-column="19" />
           <folding>
             <element signature="e#19#126#0" expanded="true" />
@@ -596,44 +401,155 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mws/feeds/feeds.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+          <folding>
+            <element signature="e#14#157#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mws/feeds/feeds_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2310">
+          <caret line="111" column="5" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mws/orders/orders.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="127" column="67" lean-forward="true" selection-start-line="127" selection-start-column="67" selection-end-line="127" selection-end-column="67" />
+          <folding>
+            <element signature="e#116#162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mws/mock/server.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="52" column="16" lean-forward="true" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+          <folding>
+            <element signature="e#14#111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mws/seller/seller_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        <state relative-caret-position="660">
+          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
           <folding>
             <element signature="e#16#80#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mws/products/products_test.go">
+    <entry file="file://$PROJECT_DIR$/mws/products/products.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="2156">
+          <caret line="100" column="90" selection-start-line="100" selection-start-column="90" selection-end-line="100" selection-end-column="90" />
+          <folding>
+            <element signature="e#111#157#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mws/seller/seller.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mws/result_parser_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-488">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#13#101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mws/result_parser.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="e#13#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mws/response.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="e#13#113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mws/parameters.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1870">
+          <caret line="85" column="17" selection-start-line="85" selection-start-column="11" selection-end-line="85" selection-end-column="17" />
+          <folding>
+            <element signature="e#13#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mws/marketplace.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="50" lean-forward="true" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+          <folding>
+            <element signature="e#13#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mws/signer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#13#74#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mws/orders/orders_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-602">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="308">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mws/feeds/feeds_test.go">
+    <entry file="file://$PROJECT_DIR$/mws/products/products_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-88">
-          <caret line="125" column="46" lean-forward="true" selection-start-line="125" selection-start-column="46" selection-end-line="125" selection-end-column="46" />
+        <state relative-caret-position="682">
+          <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-800">
-          <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-          <folding>
-            <element signature="e#14#157#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>

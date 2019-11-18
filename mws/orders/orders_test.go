@@ -77,3 +77,37 @@ func TestOrders_GetOrder(t *testing.T) {
 		xmlNode.PrintXML() // Print the xml response with indention.
 	}
 }
+
+func TestOrders_GetServiceStatus(t *testing.T) {
+	config := mws.Config{
+		SellerId:  "",
+		AuthToken: "",
+		Region:    "US",
+
+		// Optional if set in env variable
+		AccessKey: "",
+		SecretKey: "",
+	}
+
+	ordersClient, err := NewClient(config)
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+
+	// Example 1
+	fmt.Println("------GetOrder------")
+	orderDetail, err := ordersClient.GetServiceStatus()
+	// Check http client error.
+	if err != nil {
+		fmt.Println(err.Error())
+	}
+	defer orderDetail.Close()
+	// Check whether or not the API return errors.
+	if orderDetail.Error != nil {
+		fmt.Println(orderDetail.Error.Error())
+	} else {
+		xmlNode, _ := orderDetail.ResultParser()
+		xmlNode.PrintXML() // Print the xml response with indention.
+	}
+}
