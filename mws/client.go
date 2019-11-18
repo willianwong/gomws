@@ -150,8 +150,6 @@ func (base Client) buildRequest(structuredParams Parameters) (*http.Request, err
 		bytes.NewBufferString(body),
 	)
 
-	fmt.Println(body)
-
 	if err != nil {
 		return nil, err
 	}
