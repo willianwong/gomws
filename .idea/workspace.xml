@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7103e2bf-5ccd-4fb7-9884-59c653d4b8cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mws/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/mws/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mws/marketplace.go" beforeDir="false" afterPath="$PROJECT_DIR$/mws/marketplace.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,30 +12,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mws/orders/orders_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mws/client.go">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="881">
-              <caret line="150" column="5" selection-start-line="150" selection-start-column="5" selection-end-line="150" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mws/products/products_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+            <state>
+              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -79,11 +61,11 @@
         <option value="$PROJECT_DIR$/mws/feeds/feeds.go" />
         <option value="$PROJECT_DIR$/mws/feeds/feeds_test.go" />
         <option value="$PROJECT_DIR$/mws/seller/seller_test.go" />
-        <option value="$PROJECT_DIR$/mws/products/products_test.go" />
-        <option value="$PROJECT_DIR$/mws/marketplace.go" />
         <option value="$PROJECT_DIR$/mws/orders/orders_test.go" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/mws/client.go" />
+        <option value="$PROJECT_DIR$/mws/marketplace.go" />
+        <option value="$PROJECT_DIR$/mws/products/products_test.go" />
       </list>
     </option>
   </component>
@@ -98,7 +80,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,12 +94,19 @@
             </path>
             <path>
               <item name="gomws" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gomws" type="462c0819:PsiDirectoryNode" />
+              <item name="mws" type="462c0819:PsiDirectoryNode" />
+              <item name="products" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gomws" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -144,7 +132,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestOrders_GetOrder in github.com/willianwong/gomws/mws/orders">
+  <component name="RunManager" selected="Go Test.TestProducts_GetProductCategoriesForASIN in github.com/willianwong/gomws/mws/products">
     <configuration name="TestOrders_GetOrder in github.com/willianwong/gomws/mws/orders" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="gomws" />
       <working_directory value="$PROJECT_DIR$/mws/orders" />
@@ -202,30 +190,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestProducts_GetProductCategoriesForASIN in github.com/willianwong/gomws/mws/products" />
+        <item itemvalue="Go Test.TestProducts_GetServiceStatus in github.com/willianwong/gomws/mws/products" />
         <item itemvalue="Go Test.TestOrders_GetOrder in github.com/willianwong/gomws/mws/orders" />
         <item itemvalue="Go Test.TestOrders_ListOrders in github.com/willianwong/gomws/mws/orders" />
         <item itemvalue="Go Test.TestOrders_GetServiceStatus in github.com/willianwong/gomws/mws/orders" />
-        <item itemvalue="Go Test.TestProducts_GetProductCategoriesForASIN in github.com/willianwong/gomws/mws/products" />
-        <item itemvalue="Go Test.TestProducts_GetServiceStatus in github.com/willianwong/gomws/mws/products" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestProducts_GetServiceStatus_in_github_com_willianwong_gomws_mws_products - 2019.11.15 at 09h 29m 19s.xml">
-      <configuration name="TestProducts_GetServiceStatus in github.com/willianwong/gomws/mws/products" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestProducts_GetProductCategoriesForASIN_in_github_com_willianwong_gomws_mws_products - 2019.11.15 at 09h 43m 14s.xml">
-      <configuration name="TestProducts_GetProductCategoriesForASIN in github.com/willianwong/gomws/mws/products" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestOrders_GetOrder_in_github_com_willianwong_gomws_mws_orders - 2019.11.15 at 15h 38m 52s.xml">
-      <configuration name="TestOrders_GetOrder in github.com/willianwong/gomws/mws/orders" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestOrders_ListOrders_in_github_com_willianwong_gomws_mws_orders - 2019.11.15 at 17h 29m 18s.xml">
-      <configuration name="TestOrders_ListOrders in github.com/willianwong/gomws/mws/orders" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestOrders_ListOrders_in_github_com_willianwong_gomws_mws_orders - 2019.11.15 at 17h 29m 35s.xml">
-      <configuration name="TestOrders_ListOrders in github.com/willianwong/gomws/mws/orders" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestOrders_ListOrders_in_github_com_willianwong_gomws_mws_orders - 2019.11.16 at 16h 51m 46s.xml">
       <configuration name="TestOrders_ListOrders in github.com/willianwong/gomws/mws/orders" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -241,17 +214,32 @@
     <history-entry file="TestOrders_GetOrder_in_github_com_willianwong_gomws_mws_orders - 2019.11.16 at 16h 55m 56s.xml">
       <configuration name="TestOrders_GetOrder in github.com/willianwong/gomws/mws/orders" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="TestProducts_GetProductCategoriesForASIN_in_github_com_willianwong_gomws_mws_products - 2019.11.28 at 10h 57m 41s.xml">
+      <configuration name="TestProducts_GetProductCategoriesForASIN in github.com/willianwong/gomws/mws/products" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestProducts_GetProductCategoriesForASIN_in_github_com_willianwong_gomws_mws_products - 2019.11.28 at 10h 59m 46s.xml">
+      <configuration name="TestProducts_GetProductCategoriesForASIN in github.com/willianwong/gomws/mws/products" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestProducts_GetServiceStatus_in_github_com_willianwong_gomws_mws_products - 2019.11.28 at 11h 00m 23s.xml">
+      <configuration name="TestProducts_GetServiceStatus in github.com/willianwong/gomws/mws/products" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestProducts_GetServiceStatus_in_github_com_willianwong_gomws_mws_products - 2019.11.28 at 11h 01m 14s.xml">
+      <configuration name="TestProducts_GetServiceStatus in github.com/willianwong/gomws/mws/products" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestProducts_GetProductCategoriesForASIN_in_github_com_willianwong_gomws_mws_products - 2019.11.28 at 11h 01m 21s.xml">
+      <configuration name="TestProducts_GetProductCategoriesForASIN in github.com/willianwong/gomws/mws/products" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1088" y="-364" width="1096" height="1896" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17857143" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20945945" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.48590022" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49903476" weight="0.6912682" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49903476" visible="true" weight="0.3581158" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39954597" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -315,16 +303,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mws/gmws.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-          <folding>
-            <element signature="e#13#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mws/reports/reports.go">
       <provider selected="true" editor-type-id="text-editor">
@@ -420,16 +398,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mws/orders/orders.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="127" column="67" lean-forward="true" selection-start-line="127" selection-start-column="67" selection-end-line="127" selection-end-column="67" />
-          <folding>
-            <element signature="e#116#162#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mws/mock/server.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
@@ -446,16 +414,6 @@
           <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
           <folding>
             <element signature="e#16#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mws/products/products.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2156">
-          <caret line="100" column="90" selection-start-line="100" selection-start-column="90" selection-end-line="100" selection-end-column="90" />
-          <folding>
-            <element signature="e#111#157#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -507,16 +465,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mws/marketplace.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="50" lean-forward="true" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
-          <folding>
-            <element signature="e#13#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mws/signer.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -527,13 +475,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mws/orders/orders_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -541,17 +482,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mws/orders/orders.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="88" column="43" selection-start-line="88" selection-start-column="43" selection-end-line="88" selection-end-column="43" />
+          <folding>
+            <element signature="e#116#162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mws/products/products.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="52" column="34" lean-forward="true" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
+          <folding>
+            <element signature="e#111#157#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mws/marketplace.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+          <folding>
+            <element signature="e#13#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mws/products/products_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+        <state relative-caret-position="352">
+          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mws/client.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="881">
-          <caret line="150" column="5" selection-start-line="150" selection-start-column="5" selection-end-line="150" selection-end-column="5" />
+        <state relative-caret-position="528">
+          <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mws/gmws.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-437">
+          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+          <folding>
+            <element signature="e#13#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
