@@ -97,34 +97,34 @@ func TestFeed_SubmitFeed(t *testing.T) {
 	fmt.Println("------SubmitFeed------")
 	type OrderFulfillmentFeedItem struct {
 		AmazonOrderItemCode string `xml:"AmazonOrderItemCode"`
-		Quantity string `xml:"Quantity"`
+		Quantity            string `xml:"Quantity"`
 	}
 	type OrderFulfillmentFeedData struct {
-		CarrierName string `xml:"CarrierName"`
-		ShippingMethod string `xml:"ShippingMethod"`
+		CarrierName           string `xml:"CarrierName"`
+		ShippingMethod        string `xml:"ShippingMethod"`
 		ShipperTrackingNumber string `xml:"ShipperTrackingNumber"`
 	}
 	type OrderFulfillmentFeedContent struct {
-		AmazonOrderID string `xml:"AmazonOrderID"`
-		FulfillmentDate string `xml:"FulfillmentDate"`
-		FulfillmentData OrderFulfillmentFeedData `xml:"FulfillmentData"`
-		Item []OrderFulfillmentFeedItem `xml:"Item"`
+		AmazonOrderID   string                     `xml:"AmazonOrderID"`
+		FulfillmentDate string                     `xml:"FulfillmentDate"`
+		FulfillmentData OrderFulfillmentFeedData   `xml:"FulfillmentData"`
+		Item            []OrderFulfillmentFeedItem `xml:"Item"`
 	}
 	type OrderFulfillmentFeedMessage struct {
-		MessageID string `xml:"MessageID"`
+		MessageID        string                      `xml:"MessageID"`
 		OrderFulfillment OrderFulfillmentFeedContent `xml:"OrderFulfillment"`
 	}
 	type OrderFulfillmentFeedHeader struct {
-		DocumentVersion string `xml:"DocumentVersion"`
+		DocumentVersion    string `xml:"DocumentVersion"`
 		MerchantIdentifier string `xml:"MerchantIdentifier"`
 	}
 	type OrderFulfillmentFeedBase struct {
-		XMLName xml.Name `xml:"AmazonEnvelope"`
-		XMLNs string `xml:"xmlns:xsi,attr"`
-		Xsi string `xml:"xsi:noNamespaceSchemaLocation,attr"`
-		Header OrderFulfillmentFeedHeader `xml:"Header"`
-		MessageType string `xml:"MessageType"`
-		Message []OrderFulfillmentFeedMessage `xml:"Message"`
+		XMLName     xml.Name                      `xml:"AmazonEnvelope"`
+		XMLNs       string                        `xml:"xmlns:xsi,attr"`
+		Xsi         string                        `xml:"xsi:noNamespaceSchemaLocation,attr"`
+		Header      OrderFulfillmentFeedHeader    `xml:"Header"`
+		MessageType string                        `xml:"MessageType"`
+		Message     []OrderFulfillmentFeedMessage `xml:"Message"`
 	}
 	var content OrderFulfillmentFeedBase
 	content.XMLNs = "http://www.w3.org/2001/XMLSchema-instance"
@@ -142,8 +142,8 @@ func TestFeed_SubmitFeed(t *testing.T) {
 	var itemContent OrderFulfillmentFeedItem
 	itemContent.AmazonOrderItemCode = "aaa"
 	itemContent.Quantity = "1"
-	contentMessage.OrderFulfillment.Item = append(contentMessage.OrderFulfillment.Item,itemContent)
-	content.Message = append(content.Message,contentMessage)
+	contentMessage.OrderFulfillment.Item = append(contentMessage.OrderFulfillment.Item, itemContent)
+	content.Message = append(content.Message, contentMessage)
 	data, _ := xml.MarshalIndent(&content, "", "  ")
 	submitFeedRes, err := feedsClient.SubmitFeed(string(data), "_POST_ORDER_FULFILLMENT_DATA_", []string{})
 	// Check http client error.

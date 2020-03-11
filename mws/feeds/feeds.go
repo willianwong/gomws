@@ -34,7 +34,7 @@ func (f Feed) Name() string {
 	return "Feeds"
 }
 
-func md5V(str string) string  {
+func md5V(str string) string {
 	h := md5.New()
 	h.Write([]byte(str))
 	return hex.EncodeToString(h.Sum(nil))
@@ -60,10 +60,10 @@ func (f Feed) GetFeedSubmissionList() (*mws.Response, error) {
 	return f.SendRequest(params)
 }
 
-func (f Feed) GetFeedSubmissionResult(feedSubmissionId string) (*mws.Response,error){
+func (f Feed) GetFeedSubmissionResult(feedSubmissionId string) (*mws.Response, error) {
 	params := mws.Parameters{
-		"Action": "GetFeedSubmissionResult",
-		"FeedSubmissionId":feedSubmissionId,
+		"Action":           "GetFeedSubmissionResult",
+		"FeedSubmissionId": feedSubmissionId,
 	}
 	return f.SendRequest(params)
 }

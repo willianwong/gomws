@@ -1,10 +1,5 @@
 package mws
 
-import(
-	"fmt"
-	"testing"
-)
-
 //
 //import (
 //	"fmt"
@@ -421,5 +416,3 @@ import(
 //		So(stringToSign, ShouldEqual, expectedString)
 //	})
 //}
-
-

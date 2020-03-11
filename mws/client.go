@@ -141,7 +141,7 @@ func (base Client) buildRequest(structuredParams Parameters) (*http.Request, err
 
 	encodedParams := base.signQuery(params).Encode()
 	var body string
-	if structuredParams["FeedContent"] != nil{
+	if structuredParams["FeedContent"] != nil {
 		body = structuredParams["FeedContent"].(string)
 	}
 	req, err := http.NewRequest(
@@ -161,7 +161,7 @@ func (base Client) buildRequest(structuredParams Parameters) (*http.Request, err
 		md5Content := Md5V(structuredParams["FeedContent"].(string))
 		base64Content := Base64EncodeStr(md5Content)
 		req.Header.Add("Content-MD5", base64Content)
-	}else {
+	} else {
 		req.Header.Add("Content-Length", strconv.Itoa(len(encodedParams)))
 	}
 
@@ -208,7 +208,7 @@ func (base Client) generateStringToSignV2(params Values) string {
 	return stringToSign.String()
 }
 
-func Md5V(str string) string  {
+func Md5V(str string) string {
 	h := md5.New()
 	h.Write([]byte(str))
 	return string(h.Sum(nil))
