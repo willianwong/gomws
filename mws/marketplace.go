@@ -22,6 +22,7 @@ var EndPoints = map[string]string{
 	"A19VAU5U5O7RUS": "mws-fe.amazonservices.com",
 	"A39IBJ37TRP1C6": "mws.amazonservices.com.au",
 	"A17E79C6D8DWNP": "mws-eu.amazonservices.com",
+	"A2NODRKZP88ZB9": "mws-eu.amazonservices.com",
 }
 
 // MarketPlaceIds a list of marketplace by region
@@ -42,6 +43,7 @@ var MarketPlaceIds = map[string]string{
 	"SG": "A19VAU5U5O7RUS",
 	"AU": "A39IBJ37TRP1C6",
 	"SA": "A17E79C6D8DWNP",
+	"SE": "A2NODRKZP88ZB9",
 }
 
 // MarketPlaceError for marketplace.
